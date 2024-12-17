@@ -1,2 +1,197 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div style="height: 60px;"></div>
+
+<div class="container">
+    <div class="col-md-10 offset-md-1">
+<hr>
+<br>
+          <h3 class="mb-0">Contact</h3>
+          <p>Donec ullamcorper nulla non metus auctor fringilla. vestibulum id ligula porta felis euismod Semper. Praesent Commodo cursus magna, vel scelerisque nisl consectutur. fusce dapibus, tellus ac cursus commodo. </p>
+        </div>
+      </div>
+    <style>
+     
+        .form-container {
+            width: 100%;
+            max-width: 750px;  
+            margin: 0 auto;    
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 1%;
+            background-color: #f9f9f9;
+        }
+
+        
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+       
+        .form-row label {
+            width: 40%; 
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        
+        .form-row input,
+        .form-row textarea {
+            width: 85%;  
+            padding: 5px;
+            font-size: 14px;
+            border-radius: 2%;
+            border: 1px solid grey;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: dodgerblue;
+        }
+    </style>
+
+
+    
+    <div class="form-container">
+    
+        <form action="ruta_del_servidor" method="POST">
+            <div class="form-row">
+                <label for="email">Your E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Your email" type="text">
+            </div>
+
+        
+            <div class="form-row">
+                <label for="mensaje">Your message:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required  placeholder="Please enter your message here..." type="text"></textarea>
+            </div>
+
+            
+            <div class="form-row" style="justify-content: flex-end;">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- your html code here --
+<div class="container">
+    <div class="col-md-10 offset-md-1">
+
+          <h3 class="mb-0">Contact</h3>
+          <p>Donec ullamcorper nulla non metus auctor fringilla. vestibulum id ligula porta felis euismod Semper. Praesent Commodo cursus magna, vel scelerisque nisl consectutur. fusce dapibus, tellus ac cursus commodo. </p>
+        </div>
+      </div>
+<style>
+      .form-container {
+        width: 400px; 
+        margin: 0 auto; 
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        background-color: whitesmoke;
+    }
+
+    .form-container label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    .form-container input,
+    .form-container textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .form-container button {
+        padding: 10px 20px;
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .form-container button:hover {
+        background-color:blue;
+    }
+</style>
+
+
+<div class="form-container">
+    
+    
+    <form action="ruta_del_servidor" method="POST">
+        <label for="email">Your E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Your email" type="text">
+        <br>
+
+        <label for="mensaje">Your message:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Please enter your message here..." type="text"></textarea>
+        </textarea>
+       
+        <br>
+        <div class="form-right">
+        <button type="submit">submit</button>
+    </div>
+    </form>
+</div>
+---->
+
